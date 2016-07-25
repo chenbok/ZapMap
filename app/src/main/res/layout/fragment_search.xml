@@ -5,12 +5,11 @@
     android:orientation="vertical"
     tools:context="com.example.chen.zapmap.SearchFragment">
 
-    <TextView
-        android:id="@+id/textView1"
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
-        android:layout_centerInParent="true"
-        android:text="change me - search tab"
-        android:textAppearance="?android:attr/textAppearanceLarge"/>
+    <android.support.v7.widget.RecyclerView
+        android:id="@+id/searchRecyclerView"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:scrollbars="vertical"/>
+        <!--android:padding="@dimen/activity_vertical_margin"-->
 
 </RelativeLayout>
