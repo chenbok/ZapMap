@@ -1,4 +1,4 @@
-package com.example.chen.zapmap;
+package com.example.chen.zapmap.data;
 
 /**
  * Created by user on 25/07/2016.
@@ -7,7 +7,7 @@ public class PlaceObj {
     private String mText1;
     private String mText2;
 
-    PlaceObj (String text1, String text2){
+    public PlaceObj (String text1, String text2){
         mText1 = text1;
         mText2 = text2;
     }

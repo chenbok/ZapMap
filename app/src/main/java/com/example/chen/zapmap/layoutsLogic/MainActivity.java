@@ -1,12 +1,12 @@
-package com.example.chen.zapmap;
+package com.example.chen.zapmap.layoutsLogic;
 
 import android.support.v7.app.AppCompatActivity;
 import android.os.Bundle;
 import android.support.v7.widget.Toolbar;
 import android.support.design.widget.TabLayout;
 import android.support.v4.view.ViewPager;
-import android.view.Menu;
-import android.view.MenuItem;
+
+import com.example.chen.zapmap.R;
 
 
 public class MainActivity extends AppCompatActivity {

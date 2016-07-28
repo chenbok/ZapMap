@@ -1,4 +1,4 @@
-package com.example.chen.zapmap;
+package com.example.chen.zapmap.layoutsLogic;
 
 import android.support.v7.widget.RecyclerView;
 import android.util.Log;
@@ -7,11 +7,14 @@ import android.view.View;
 import android.view.ViewGroup;
 import android.widget.TextView;
 
+import com.example.chen.zapmap.R;
+import com.example.chen.zapmap.data.PlaceObj;
+
 import java.util.ArrayList;
 
 public class SearchRecyclerAdapter extends RecyclerView
         .Adapter<SearchRecyclerAdapter.DataObjectHolder> {
-    private static String LOG_TAG = "MyRecyclerViewAdapter";
+    private static String LOG_TAG = "RecyclerViewAdapter";
     private ArrayList<PlaceObj> mDataset;
     private static MyClickListener myClickListener;
 

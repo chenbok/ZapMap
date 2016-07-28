@@ -1,8 +1,11 @@
-package com.example.chen.zapmap;
+package com.example.chen.zapmap.layoutsLogic;
 
 import android.support.v4.app.Fragment;
 import android.support.v4.app.FragmentManager;
 import android.support.v4.app.FragmentStatePagerAdapter;
+
+import com.example.chen.zapmap.layoutsLogic.FavoriteFragment;
+import com.example.chen.zapmap.layoutsLogic.SearchFragment;
 
 public class PagerAdapter extends FragmentStatePagerAdapter {
 
